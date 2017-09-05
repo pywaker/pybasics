@@ -1,10 +1,7 @@
-Pybasics Introduction
-=====================
-
-# Anaconda/Miniconda
+# Introduction to Python Basics Sessions
 ---
 
-## Downloading Miniconda/Anaconda
+## Anaconda/Miniconda
 
 Anaconda is python distribution which bundles all the required datascience tools.
 
@@ -15,32 +12,47 @@ Miniconda is smaller version of Anaconda, which contains only required packages 
 > Download miniconda from [Miniconda website](http://conda.pydata.org/miniconda.html). Use Python 3 version.
 
 
-## Installation
----
-
-
-Windows
-
-  - Install exe file
-  - update environment variable with installed miniconda path. [See Instructions](https://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/sysdm_advancd_environmnt_addchange_variable.mspx)
+### Installation
 
 Linux
 
-    > chmod +x Miniconda3-latest-Linux-x86_64.sh
-    > ./Miniconda3-latest-Linux-x86_64.sh
+    > chmod +x Anaconda3-latest-Linux-x86_64.sh
+    > ./Anaconda3-latest-Linux-x86_64.sh
     > nano ~/.bashrc
 
 Mac
 
-    > chmod +x Miniconda3-latest-MacOSX-x86_64.sh
-    > ./Miniconda3-latest-MacOSX-x86_64.sh
+    > chmod +x Anaconda3-latest-MacOSX-x86_64.sh
+    > ./Anaconda3-latest-MacOSX-x86_64.sh
     > nano ~/.bash_profile
 
 Add line below to .bashrc or .bash_profile or .zshrc file
 
 ```sh 
-    export PATH=$PATH:~/miniconda3/bin
+    export PATH=$PATH:~/anaconda3/bin
 ```
+
+Windows
+
+  - Install exe file
+  - update environment variable with installed Anaconda path. [See Instructions](https://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/sysdm_advancd_environmnt_addchange_variable.mspx)
+
+
+## Github and Git
+---
+
+- Download github desktop from [https://desktop.github.com/](https://desktop.github.com/)
+
+### Windows
+
+- Download git for windows from [https://git-scm.com/download/win](https://git-scm.com/download/win)
+
+### Linux
+
+- Install **git** from your package manager.
+
+    **Ubuntu**
+        $ sudo apt-get install git
 
 Usage
 =====
