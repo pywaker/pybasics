@@ -52,7 +52,16 @@ Windows
 - Install **git** from your package manager.
 
     **Ubuntu**
+    
         $ sudo apt-get install git
+    
+    **Archlinux**
+    
+        $ sudo pacman -S git
+    
+    **Solus**
+    
+        $ sudo eopkg it git
 
 Usage
 =====
