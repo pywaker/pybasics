@@ -70,6 +70,5 @@ Usage
 
     $ git clone https://github.com/lfapython/pybasics.git
     $ cd pybasics
-    $ conda env create
-    $ source activate pybasics
-    $ jupyter-notebook
+    $ poetry install
+    $ poetry run jupyter notebook
