@@ -2,3 +2,9 @@ name: pybasics
 dependencies:
   - python
   - jupyter
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - statsmodels
+  - jupyterlab
